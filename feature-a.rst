@@ -16,3 +16,43 @@ Let's make a list (empty surrounding lines required):
 - item 2
 - item 3
 
+
+
+Some Code::
+
+  def hello():
+      print("Hello world")
+
+
+.. code-block:: c
+
+   #include <stdio.h>
+   int main()
+   {
+      printf("Hello, World!");
+      return 0;
+    }
+
+.. code-block:: fortran
+
+  * Authors : U. Marboeuf & A.Thiabaud
+  * Center for Space and habitability, University of Bern
+
+
+        INCLUDE 'subroutines.f'
+        INCLUDE 'subroutines2.f'
+        PROGRAM Stellar_Systems
+
+        include 'parameters.h'
+        include 'parameters_debug.h'
+        include 'common2.h'
+        include 'variables.h'
+        include 'path.h'
+        INCLUDE 'parameters_compo.h'
+
+        integer IOStatus
+        integer j,l
+        real*8 accretion
+        LOGICAL :: file_exists
+        !init=.true.
+
